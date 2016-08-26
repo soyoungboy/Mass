@@ -39,13 +39,6 @@ public class MainActivity extends AppCompatActivity implements Updatable {
 
     @Override
     public void update() {
-        mRepository.get().ifSucceededSendTo(new Receiver<List<ArticleModel>>() {
-            @Override
-            public void accept(@NonNull List<ArticleModel> value) {
-                Toast.makeText(MainActivity.this,
-                        value.toString(),
-                        Toast.LENGTH_LONG).show();
-            }
-        });
+
     }
 }
