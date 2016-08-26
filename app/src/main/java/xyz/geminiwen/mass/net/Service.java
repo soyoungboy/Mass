@@ -2,7 +2,6 @@ package xyz.geminiwen.mass.net;
 
 import android.content.Context;
 
-
 import me.drakeet.retrofit2.adapter.agera.AgeraCallAdapterFactory;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
