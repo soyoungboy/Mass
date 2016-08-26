@@ -2,13 +2,12 @@ package xyz.geminiwen.mass;
 
 import android.app.Application;
 
-import com.segmentfault.app.agera.dagger.components.AppComponent;
-import com.segmentfault.app.agera.dagger.components.DaggerAppComponent;
-import com.segmentfault.app.agera.dagger.modules.AppModule;
-
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
+import xyz.geminiwen.mass.dagger.components.AppComponent;
+import xyz.geminiwen.mass.dagger.components.DaggerAppComponent;
+import xyz.geminiwen.mass.dagger.modules.AppModule;
 import xyz.geminiwen.mass.net.Service;
 
 /**

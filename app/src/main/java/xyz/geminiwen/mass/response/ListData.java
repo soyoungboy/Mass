@@ -2,6 +2,8 @@ package xyz.geminiwen.mass.response;
 
 import java.util.List;
 
+import xyz.geminiwen.mass.model.PageModel;
+
 /**
  * Created by geminiwen on 16/8/25.
  */

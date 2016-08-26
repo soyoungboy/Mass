@@ -30,9 +30,6 @@ public class MainActivity extends AppCompatActivity implements Updatable {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArticleAPI api = Service.factory()
-                .createService(ArticleAPI.class);
-
     }
 
 

@@ -2,13 +2,13 @@ package xyz.geminiwen.mass.net;
 
 import android.content.Context;
 
-import com.segmentfault.app.agera.dagger.components.AppComponent;
 
 import me.drakeet.retrofit2.adapter.agera.AgeraCallAdapterFactory;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import xyz.geminiwen.mass.App;
 import xyz.geminiwen.mass.BuildConfig;
+import xyz.geminiwen.mass.dagger.components.AppComponent;
 
 import static java.util.Objects.requireNonNull;
 

@@ -1,9 +1,7 @@
 package xyz.geminiwen.mass.dagger.modules;
 
 import android.content.Context;
-
-import com.segmentfault.app.agera.BuildConfig;
-import com.segmentfault.app.agera.net.ServiceInterceptor;
+import android.support.compat.BuildConfig;
 
 import javax.inject.Singleton;
 
@@ -11,6 +9,7 @@ import dagger.Module;
 import dagger.Provides;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
+import xyz.geminiwen.mass.net.ServiceInterceptor;
 
 /**
  * Created by geminiwen on 16/8/25.

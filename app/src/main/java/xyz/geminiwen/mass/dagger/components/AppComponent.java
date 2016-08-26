@@ -2,13 +2,13 @@ package xyz.geminiwen.mass.dagger.components;
 
 import android.content.Context;
 
-import com.segmentfault.app.agera.api.Service;
-import com.segmentfault.app.agera.dagger.modules.AppModule;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
 import okhttp3.OkHttpClient;
+import xyz.geminiwen.mass.dagger.modules.AppModule;
+import xyz.geminiwen.mass.net.Service;
 
 /**
  * Created by geminiwen on 16/8/25.
