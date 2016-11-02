@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mass</string>
+
+    <string name="linear_layout_manager">android.support.v7.widget.LinearLayoutManager</string>
 </resources>
